@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;   
+    background-color:#d9a21b
+}
+    
+header a{
+    margin: 10px;
+    font-family: 'Fira Sans', sans-serif; font-style:unset;
+    color: #002060;
+}
+header img{
+    width: 200px;
+}
+
+
+h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 10px;
+    
+}
+h2{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 10px;
+}
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 10px;
+    padding: 1em;
+}
+
+#contenido{
+    background-color: #799bd8;
+}
+
+
+#aplicaciones ul{
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style-type: square;
+    justify-content: center;
+    padding: 2em;
+}
+#aplicaciones img{
+    width: 90%    ;
+    margin-right: 2em;
+    border-radius: 30%;
+    justify-content: center;
+    }
+
+
+#mision i{
+    font-size: 100px;
+    align-items: center;
+    margin: 18px;
+}
+
+#service{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+}
+#service ul{
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style-type: square;
+    pad: 1em;
+}
+
+#contacto i{
+    font-size: 70px;
+    align-items: center;
+    margin: .5em;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;   
+    background-color:#4268a1
+    }
+footer ul{
+    display: flex;
+    flex-direction: row;
+    margin-block-start: 1em;
+    list-style-type: none
+    }
+
+footer img{
+    width: 100px;
+}
+footer a{
+color: #d9a21b;
+}
+
+footer a.hover{
+    font-size: 1.1em;
+}
